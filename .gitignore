@@ -1,0 +1,32 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Experiment outputs and model checkpoints
+result/
+result_*/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.log
+
+# Local datasets (do not upload original data)
+data/*.csv
+data/*.xes
+data/*.xes.gz
+
+# Environment variables and local configuration
+.env
+.env.*
